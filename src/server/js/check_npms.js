@@ -5,7 +5,7 @@
 import { checkNpmVersions } from 'meteor/tmeasday:check-npm-versions';
 
 if( false ){
-    require( 'jquery-ui-dist/jquery-ui.min.js' );
+    require( 'jquery-ui-dist/package.json' );
 }
 
 checkNpmVersions({

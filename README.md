@@ -8,7 +8,7 @@ A Meteor package which provides a patched stylesheet and a server-side snippet t
 
 Due to the above issue, any Meteor application or package which would take advantage of jQuery UI resources has to have a fixed route to the pages which use jQuery UI, and patch the stylesheet accordingly.
 
-As described in the issue form, this package provides a work-around which works with any route, thus preventing the application or package to have to fix any route, thus being so much more flexible.
+As described in the issue form, this package provides a work-around which works with any route, thus preventing the application or package to have to fix any route, thus being much more flexible.
 
 ## Usage
 
