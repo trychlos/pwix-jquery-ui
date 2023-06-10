@@ -10,4 +10,6 @@ if( false ){
 
 checkNpmVersions({
     'jquery-ui-dist': '^1.13.2'
-}, 'pwix:jquery-ui' );
+},
+    'pwix:jquery-ui'
+);
