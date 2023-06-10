@@ -1,6 +1,6 @@
 Package.describe({
     name: 'pwix:jquery-ui',
-    version: '0.1.2-rc',
+    version: '1.0.0',
     summary: 'A jQuery UI Meteor package',
     git: 'https://github.com/trychlos/pwix-jquery-ui',
     documentation: 'README.md'
@@ -32,7 +32,6 @@ Package.onTest( function( api ){
 
 function configure( api ){
     api.versionsFrom( '2.9.0' );
-    api.use( 'blaze-html-templates@2.0.0', 'client' );
     api.use( 'ecmascript' );
     api.use( 'less@4.0.0', 'client' );
     api.use( 'tmeasday:check-npm-versions@1.0.2', 'server' );

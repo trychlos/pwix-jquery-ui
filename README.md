@@ -43,7 +43,7 @@ Starting with v 0.1.0, and in accordance with advices from [the Meteor Guide](ht
 
 Instead we check npm versions of installed packages at runtime, on server startup, in development environment.
 
-Dependencies as of v 0.1.0:
+Dependencies as of v 1.0.0:
 ```
     'jquery-ui-dist': '^1.13.2'
 ```
@@ -53,4 +53,4 @@ Each of these dependencies MUST be installed at application level:
 ```
 ---
 P. Wieser
-- Last updated on 2023, Apr. 28th
+- Last updated on 2023, June 10th
