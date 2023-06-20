@@ -18,10 +18,10 @@ This package is expected to be `api.use()` by another application or package: yo
     meteor add pwix:jquery-ui
 ```
 
-From the application (resp. package) point of view, it has just have to include the jQuery UI javascript, says:
+From the application (resp. package) point of view, it has just to include the jQuery UI javascript, says:
 
 ```
-    import 'jquery-ui-dist/jquery-ui.min.js';
+    import 'jquery-ui/dist/jquery-ui.min.js';
 ```
 and enjoy!
 
@@ -35,17 +35,17 @@ This package automatically publishes the patched stylesheet and the correspondin
 
 Please note that the jQuery UI package MUST have been installed at application level
 
-    `meteor npm install jquery-ui-dist --save`
+    `meteor npm install jquery-ui --save`
 
 ## NPM peer dependencies
 
-Starting with v 0.1.0, and in accordance with advices from [the Meteor Guide](https://guide.meteor.com/writing-atmosphere-packages.html#npm-dependencies), we no more hardcode NPM dependencies in the `Npm.depends` clause of the `package.js`. 
+Starting with v 1.0.0, and in accordance with advices from [the Meteor Guide](https://guide.meteor.com/writing-atmosphere-packages.html#npm-dependencies), we no more hardcode NPM dependencies in the `Npm.depends` clause of the `package.js`. 
 
 Instead we check npm versions of installed packages at runtime, on server startup, in development environment.
 
 Dependencies as of v 1.0.0:
 ```
-    'jquery-ui-dist': '^1.13.2'
+    'jquery-ui': '^1.13.2'
 ```
 Each of these dependencies MUST be installed at application level:
 ```
@@ -53,4 +53,4 @@ Each of these dependencies MUST be installed at application level:
 ```
 ---
 P. Wieser
-- Last updated on 2023, June 10th
+- Last updated on 2023, June 20th

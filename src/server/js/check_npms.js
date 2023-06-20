@@ -5,11 +5,11 @@
 import { checkNpmVersions } from 'meteor/tmeasday:check-npm-versions';
 
 if( false ){
-    require( 'jquery-ui-dist/package.json' );
+    require( 'jquery-ui/package.json' );
 }
 
 checkNpmVersions({
-    'jquery-ui-dist': '^1.13.2'
+    'jquery-ui': '^1.13.2'
 },
     'pwix:jquery-ui'
 );
