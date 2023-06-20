@@ -2,11 +2,11 @@
 
 ## ChangeLog
 
-### 1.0.2-rc
+### 1.0.2
 
-    Release date: 
+    Release date: 2023- 6-20
 
-    - 
+    - Replace jquery-ui-dist module with standard jquery-ui
 
 ### 1.0.1
 
@@ -35,4 +35,4 @@
 
 ---
 P. Wieser
-- Last updated on 2023, June 10th
+- Last updated on 2023, June 20th
