@@ -31,12 +31,12 @@ Package.onTest( function( api ){
 });
 
 function configure( api ){
-    api.versionsFrom( '2.9.0' );
+    api.versionsFrom([ '2.9.0', '3.0-rc.0' ]);
     api.use( 'ecmascript' );
     api.use( 'less@4.0.0', 'client' );
-    api.use( 'tmeasday:check-npm-versions@1.0.2', 'server' );
+    api.use( 'tmeasday:check-npm-versions@1.0.2 || 2.0.0-beta.0', 'server' );
     api.use( 'webapp', 'server' );
 }
 
 // NPM dependencies are checked in /src/server/js/check_npms.js
-// See also https://guide.meteor.com/writing-atmosphere-packages.html#npm-dependencies
+// See also https://guide.meteor.com/writing-atmosphere-packages.html#peer-npm-dependencies
