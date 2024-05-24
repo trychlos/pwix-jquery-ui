@@ -2,6 +2,7 @@
  * pwix:jquery-ui/src/server/js/webapp.js
  *
  * See https://stackoverflow.com/questions/75402993/does-serving-static-files-from-multiple-routes-in-meteor-implies-to-multiply-pu/
+ * and https://github.com/meteor/meteor/issues/12524
  * 
  * Note that this work-around requires the use of a specially patched css on client side.
  */
