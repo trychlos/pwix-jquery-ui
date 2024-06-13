@@ -4,9 +4,9 @@
 
 ### 1.0.4-rc
 
-    Release date: 
+    Release date:
 
-    - 
+    - Update README
 
 ### 1.0.3
 
