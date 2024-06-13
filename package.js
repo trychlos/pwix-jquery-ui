@@ -1,6 +1,6 @@
 Package.describe({
     name: 'pwix:jquery-ui',
-    version: '1.0.4-rc',
+    version: '1.0.4',
     summary: 'A jQuery UI Meteor package',
     git: 'https://github.com/trychlos/pwix-jquery-ui',
     documentation: 'README.md'
